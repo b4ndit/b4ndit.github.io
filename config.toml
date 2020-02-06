@@ -1,0 +1,11 @@
+baseURL = "https://b4ndit.github.io/"
+languageCode = "en-us"
+title = "B4ndit's Blog"
+copyright = "&copy; 2019 B4ndit"
+theme = "pickles"
+
+[params]
+  subtitle = "Ramblings from a security guy"
+  paginate = 10
+  author = "B4ndit"
+  bio = "B4ndit is a [put something here eventually]"
