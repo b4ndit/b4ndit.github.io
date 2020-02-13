@@ -1,0 +1,40 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: b4ndit-github-io
+#google_analytics: dbyll
+title: Brandon Hinkel
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Brandon's Blog
+
+description: Stylish Jekyll Theme
+author:
+  name: Brandon Hinkel
+  email: brandonhinkel@protonmail.com
+  github: b4ndit
+  #twitter: dbtek
+  #pinterest: asd123
+  linkedin: brandonhinkel
+  bio: I work in the Cyber Security field and love being outdoors in my free time
+  email_md5: 074d0513ea2ed615f7c62062ad77f1a4
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
