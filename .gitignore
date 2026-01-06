@@ -1,5 +1,32 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+
+# Bundler
+vendor/
+.bundle/
+*.gem
+Gemfile.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor files
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+# Backup directory from migration
+_layouts.old/
+_includes.old/

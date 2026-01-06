@@ -1,37 +1,36 @@
-dbyll
-=====
+# Brandon's Blog
 
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
+Personal blog built with Jekyll and hosted on GitHub Pages.
 
-## New
-- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
-- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
+## Theme
+Using the [Hacker theme](https://github.com/pages-themes/hacker) - a minimalist terminal-style theme.
 
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
-- :new: Custom sidebar background image.
+## Local Development
 
+```bash
+# Install dependencies
+bundle install
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+# Run local server
+bundle exec jekyll serve
 
-### Install
-- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
-- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
-- Go to the root of the repo and run this - ```bundle install```
-- Then - ```bundle exec jekyll serve```
+# Visit
+http://127.0.0.1:4000
+```
 
-### Screenshots
-![dbyll-screenshot](assets/media/dbyll-ss.png)
+## Publishing
 
-### License
-- [MIT](http://opensource.org/licenses/MIT)
+Use the `publish.sh` script for convenience:
+```bash
+# Create new post
+./publish.sh new "Post Title"
 
+# Preview locally
+./publish.sh serve
+
+# Deploy
+./publish.sh deploy "Commit message"
+```
+
+## Posts
+Blog posts are in the `_posts/` directory with the format: `YYYY-MM-DD-title.markdown`
