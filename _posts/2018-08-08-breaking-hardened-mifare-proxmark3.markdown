@@ -5,6 +5,10 @@ featured: true
 date: '2018-08-08 20:19:09'
 tags:
 - proxmark3
+- rfid
+- mifare
+- security
+- hardware
 ---
 
 The traditional attacks on MIFARE cards rely on weak random number generation. The two most common attacks using the Proxmark3 are the darkside attack `hf mf mifare` and the nested attack `hf mf nested`. Neither of these attacks work on modern MIFARE cards with hardened pseudorandom number generation (PRNG).

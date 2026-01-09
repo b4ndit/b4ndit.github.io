@@ -2,6 +2,11 @@
 layout: post
 title: CARP Conflict with VRRP
 date: '2018-09-17 14:41:37'
+tags:
+- networking
+- pfsense
+- troubleshooting
+- firewall
 ---
 
 We utilize two pfSenses in CARP-failover mode as the firewalls protecting a Hyper-V cluster. This past weekend at 3am, the firewalls started experiencing high packet loss to the upstream gateway.

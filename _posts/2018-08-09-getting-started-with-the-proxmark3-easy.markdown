@@ -4,6 +4,9 @@ title: Getting Started with the Proxmark3 Easy
 date: '2018-08-09 17:44:06'
 tags:
 - proxmark3
+- rfid
+- hardware
+- tutorial
 ---
 
 It took me several hours to get the Proxmark3 Easy up and running the first time. I had no idea what I was doing and couldn't find much information specific to the Proxmark3 Easy.

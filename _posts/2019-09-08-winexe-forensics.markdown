@@ -2,6 +2,12 @@
 layout: post
 title: WinExe Forensics
 date: '2019-09-08 15:00:00'
+tags:
+- forensics
+- windows
+- security
+- apt28
+- incident-response
 ---
 
 WinExe is a utility that allows linux hosts to remotely execute commands on a Windows machine. The functionality is very similar to PsExec.
